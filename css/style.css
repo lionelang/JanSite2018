@@ -1,0 +1,13 @@
+H1{
+    BACKGROUND-ColOR: green;
+    ColOR: yellow;
+}
+
+p{
+    background: green
+}
+
+.nice{  /* . is to define a class */
+    background: red
+
+}

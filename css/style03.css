@@ -1,0 +1,197 @@
+#wrapper {
+    background-color: #fff;
+    color: #000;
+    float: inherit; /* not sure what is this */
+    width: 900px;
+    position: relative;
+    margin: 0 auto 0 auto;
+
+    }
+    header {
+
+    float: left;
+    width: 900px;
+    height: 100px;
+    font size: 30px;
+
+    }
+
+    nav {
+
+    float: left;
+    width: 900px;
+    height: 20px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 0px 3px 0px;
+
+    }
+
+    nav a {  /* this on index_02 HTML, is <NAV> <A> </A> </NAV> */
+    
+    color: #fff
+   
+    }
+
+    nav a:hover {  /*Hovering on the links */
+    
+    color: yellow
+    }
+
+    article {
+    float: left;
+    background-color: g#fff;
+    width: 650px;
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: 20px 20px 20px 20px;
+    
+    }
+
+    a {
+    color: orange;
+    }
+
+    section {
+
+   
+
+    }
+
+    aside {
+    float:left;
+    background-color: grey;
+    width: 200px;
+    font-family: 'Arial';
+    font-size: 12px;
+    padding: 10px 5px 10px 5px;
+    }
+
+    footer {
+
+    background-color: white;
+    text-align: center;
+
+    }
+
+    /* contact form */
+
+.contact_form h2, .contact_form label {
+    font-family: 'times new roman';
+    font-weight: bold;
+}
+
+.contact_form td {
+
+    width: 5%;
+
+}
+
+.required_notification, .form_hint{
+
+    font-size: 10px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.contact_form label {
+    wdith: 0px;
+    display: inline-block;
+    vertical-align: center;
+    
+}
+
+
+.contact_form input {
+    width: 220px;
+    height: 20px;
+    padding: 2px;
+}
+
+.contact_form textarea{
+    width: 300px;
+}
+
+.contact_form button {
+
+    margin-left: 150px;
+
+}
+
+.contact_form input, .contact_form textarea {
+    border: 1px solid red;
+    box-shadow: 0px 0px 3px green, 0px, 10px 15px blue inset;
+    border-radius: 5px;
+    padding-right: 30px;
+    -moz-transition: padding .2s;
+    -webkit-transition: padding .2s;
+    -o-transition: padding .2s;
+    transition: padding .2s;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fffffff;
+    border: 1px solid #555;
+    box-shadow: 0px 0px 3 px #aaa;
+    padding-right: 70px;
+}
+
+.contact_form input:required, .contact_Form textarea: required {
+background:#fff url('../images/red_asterisk.png') no-repeat 98% center;
+
+}
+
+.contact_form input:valid, .contact_Form textarea:valid {
+
+    background: #fff url('../images/valid.png') no-repeat 98% center;
+    box-shadow: 0 0 5px green;
+    border-color: yellow;
+}
+
+.contact_form input: invalid, .contact_form textarea:invalid {
+
+   background: #fff url('../images/invalid.ong') no-repeat 98% center; 
+   box-shadow: 0 0 5px red;
+   border-color: red;
+
+}
+
+button.submit{
+
+    background-color: green;
+    border-radius: 3px; 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid red;
+    font-weight: bold;
+
+}
+
+button.submit:hover{
+    cursor: pointer;
+}
+
+
+button.submit:active{
+
+    background-color: blue;
+    border-radius: 3px; 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid orange;
+    font-weight: bold;
+    
+
+}
+
+.form_hint{
+
+    background:red;
+    border-radius: 3px 3px 3px 3px;
+    color: yellow;
+    margin-left: 5px;
+    padding: 1px 5px;
+}
