@@ -1,0 +1,34 @@
+…or create a new repository on the command line
+
+echo "# JanSite2018" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lionelang/JanSite2018.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/lionelang/JanSite2018.git
+git push -u origin master
+
+Connect the Git to PC:
+
+(1) Launch Command Prompt.
+(2) CD and connect to JanSite2018
+(3) enter: git init
+(4) enter: git add *
+(5) enter: git config --global user.email "webmail.com.sg@gmail.com"
+(6) enter: git config --global user.name "lionelang"
+(7) enter: git commit -m "Initial Commit"
+(8) enter: git remote add origin https://github.com/lionelang
+(9) enter: git remove add origin https://github.com/lionelang/JanSite2018.git 
+(10) enter: git push -u origin master
+(11) a prompt will be launched for you to login to your github account
+(12) In GitHub, go to Settings, find Github Pages. Under Source, select Master Branch and hit Save.
+(13) a URL directory will be setup
+
+CD Documents, cd our root folder
+(4), (7, with a different comment) and (10) are needed for subsequent activities
+
+#
+
