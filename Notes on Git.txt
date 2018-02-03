@@ -32,7 +32,14 @@ CD Documents, cd our root folder
 
 OR
 
+git add *
+
 git commit -m "Bootstrap initial checkin"
 
 git push -u origin master
 
+
+
+
+
+Lastly: https://lionelang.github.io/JanSite2018/<directory link>
