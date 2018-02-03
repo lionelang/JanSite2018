@@ -1,0 +1,247 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name- "description" content="My First Bootstrap HTML">
+  <meta name="keywords" content- "HTML5, CSS3, bootstrap, Javascript, XML">
+  <meta name="author" content="Lionel">
+  <meta name="viewpoint" content="width-device-width, initial-scales=0">
+
+  <!-- copied from this link: https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Not necessarily a bootstrap configuration, and below Font CDN is retrieved from Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="jumbotron">
+      <h1>Alignment Designer</h1>
+      <p>My First BootStrap</p>
+    </header>
+
+
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Alignment Designer</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="feb2_bootstrap.html">Home</a>
+          </li>
+          <li>
+            <a href="feb2_about.html">About</a>
+          </li>
+          <li>
+            <a href="feb2_contact.html">Contact</a>
+          </li>
+        </ul>
+        <div id="navbar" class="collapse navbar-collapse">
+          <form class="navbar-form navbar-right" action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container-fluid" style="background-color: lightgrey;">
+      <div class="row">
+        <section class="col-xs-12 col-sm-6">
+          <div style="padding: 10px 10px 10px 10px; width: 80%; border: 2px solid black; border-radius:5px;">
+            <h1>SECTION 1</h1>
+            <form action="#">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </section>
+        <section class="col-xs-12 col-sm-6">
+          <div style="padding: 10px 10px 10px 10px; width: 80%; border: 2px solid black; border-radius:5px; height: 350px;">
+          <h1>SECTION 2: About Lionel</h1>
+          <hr>
+          <p>
+              Lionel is from Singapore. He is 34 this year (2018) and he believes to be a strong project manager in elearning delivery. He believes, no matter what framework is adopted, outcome matters! Learners' outcome and their achievements, matters!
+          </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Template for a DIV row 
+    <div class="container-fluid" style="background-color: lightgrey;">
+        <div class="row">
+          <div class="col-xs-12">
+
+          </div>
+        </div>
+    </div>
+    --> 
+    <hr>
+ 
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+                <h3>One of my video works in 2013:</h3>
+                <div class="embed-responsive embed-responsive-16by9"><!-- 2nd row: Youtube Video -->
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/IqX9r3waGG8" ></iframe>
+                </div>
+
+          </div>
+        </div>
+    </div>
+ 
+    <hr>
+
+   <!-- 3 columns div -->
+
+   <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4">
+            <h3>Column: 01</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+                    <a href="#" class="btn btn default" role="button">View Details &raquo;</a>
+                </p>
+          </div>
+          <div class="col-xs-4">
+            <h3>Column: 02</h3>
+            <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+                <a href="#" class="btn btn default" role="button">View Details &raquo;</a>
+            </p>
+          </div>
+          <div class="col-xs-4">
+            <h3>Column: 03</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+               </p>
+               <p>
+                    <a href="#" class="btn btn default" role="button">View Details &raquo;</a>
+                </p>
+          </div>
+        </div>
+    </div> 
+ 
+    <hr>
+
+    <!-- list group -->
+    <div class="row">
+        <div class="col-md-4 col-xs-12 panel panel-default">
+            <h3 class="text-center">1st List Group: Operating Hours</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>Day</td>
+                        <td>Hours</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="row1">
+                        <td>
+                            Monday to Thurday
+                        </td>
+                        <td>
+                            0900HRs - 1700HRs
+                        </td>
+                    </tr>
+                    <tr id="row2">
+                            <td>
+                                Friday & Saturday
+                            </td>
+                            <td>
+                                0900HRs - 1200HRs
+                            </td>
+                    </tr>
+                    <tr id="row3">
+                            <td>
+                                Sunday
+                            </td>
+                            <td>
+                                Closed
+                            </td>
+                    </tr>
+                        
+                </tbody>
+            </table>
+
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h3>2nd List Group: My Location</h3>
+            <div class"embed-responsive embed-responsibe-4by3">
+                    <iframe class="embed responsive-item" src="https://goo.gl/KUBB7L"></iframe>
+            </div>
+
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h3>3rd List Group: Check Me Out</h3>
+            <br>
+                <div class="list-group">
+                    <a href="#" class="list-group-item"><i class="fas fa-globe"></i>&nbsp;AlignmentDesigner.com</a>
+                    <a href="#" class="list-group-item"><i class="fab fa-linkedin-in"></i>&nbsp;Lionel's Linkedin</a>
+                </div>
+
+        </div>
+    </div>
+ 
+    <hr>
+
+    <!-- fontawesome social media icons -->
+    <div class="container -fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <ul class="list-inline">
+                    <li id="01">
+                            <i class="fab fa-facebook-f"></i>
+                    </li>
+                    <li id="02">
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                    <li id="03">
+                            <i class="fab fa-instagram"></i>
+                    </li>
+            
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <!-- Footer -->
+    <footer class: "text center" align="center">
+        Copyright &copy; 2018. <a href="http://www.alignmentdesigner.com", target="_blank">AlignmentDesigner.com</a>
+    </footer>
+
+     
+
+
+</div>
+
+</body>
+
+</html>

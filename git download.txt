@@ -30,5 +30,9 @@ Connect the Git to PC:
 CD Documents, cd our root folder
 (4), (7, with a different comment) and (10) are needed for subsequent activities
 
-#
+OR
+
+git commit -m "Bootstrap initial checkin"
+
+git push -u origin master
 
